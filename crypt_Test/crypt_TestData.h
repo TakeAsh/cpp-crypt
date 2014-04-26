@@ -27,6 +27,6 @@ struct Crypt_TestCase {
 /**
 	テスト値配列
 */
-extern Crypt_TestCase testCases[24];
+extern Crypt_TestCase testCases[26];
 
 // EOF

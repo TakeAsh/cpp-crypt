@@ -70,6 +70,13 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <PostBuildEvent>
+      <Command>cd /d "$(SolutionDir)"
+doxygen.exe Doxyfile</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Doxygen</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
